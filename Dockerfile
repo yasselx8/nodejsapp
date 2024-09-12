@@ -1,4 +1,4 @@
-FROM node:18.8.0
+FROM node:22
 WORKDIR /appnodejs
 ADD . /appnodejs
 RUN npm install
